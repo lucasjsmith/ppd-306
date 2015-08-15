@@ -1,7 +1,8 @@
 ##License
 
 Code licensed under MIT license. Use it for whatever you like, if for some reason you want to.
-Images (c) 2014 Lucas J Smith, licensed under CC BY-SA.
+
+Images, video, and audio (c) 2014 Lucas J Smith, licensed under CC BY-SA.
 
 ###The MIT License (MIT)
 
