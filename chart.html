@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+
+	<title>Chart | PPD 306 Portfolio</title>
+
+	<style type="text/css">
+		td:nth-child(1){
+			padding-left: 0;
+		}
+		td:nth-child(2){
+			padding-right: 0;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="nav-bar">
+		<ul class="nav">
+			<li><h1>PPD-306<br>portfolio</h1></li>
+			<li><a href="index.html">Intro</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li id="selected-nav"><a href="chart.html">Chart</a></li>
+			<li><a href="infographic.html">Infographic</a></li>
+			<li><a href="photos.html">Photos</a></li>
+			<li><a href="sketchup.html">SketchUp</a></li>
+			<li><a href="psa.html">PSA</a></li>
+			<li><a href="audio.html">Audio</a></li>
+			<li><a href="map.html">Map</a></li>
+			<p id="nav-footer">Lucas Smith, Fall 2014</p>
+		</ul>
+	</div>
+	<div id="content-wrapper">
+		<div id="content">
+			<h1>Chart</h1>
+			<p>I wanted to find out when people use car2go, and if the usage patterns caried from city to city. To determine when people are using car2go, I tracked usage of the systems continously, using the excellent API car2go provides. Using this data, I charted usage patterns across the U.S. car2go Cities.</p>
+			<p>The data shown here is from September 15, 2014, a Monday. The charts show a running average utilization over the 15 minutes before and 15 minutes after the denoted time.</p>
+			<p class="notes">Due to issues with the car2go API, some times are missing data. Individual missing points were interpolated from the two points around them. Larger missing spans are displayed as breaks in the data.</p>
+			<a class="nodecor" href="images/plot-all.png"><img src="images/plot-all.png" /></a>
+			<table id="images-two-up">
+				<tr>
+					<td><a href="images/plot-columbus.png"><img src="images/plot-columbus.png" /></a></td>
+					<td><a href="images/plot-city.png"><img src="images/plot-denver.png" /></a></td>
+				</tr>
+				<tr>
+					<td><a href="images/plot-city.png"><img src="images/plot-losAngeles.png" /></a></td>
+					<td><a href="images/plot-city.png"><img src="images/plot-miami.png" /></a></td>
+				</tr>
+				<tr>
+					<td><a href="images/plot-city.png"><img src="images/plot-minneapolis.png" /></a></td>
+					<td><a href="images/plot-city.png"><img src="images/plot-portland.png" /></a></td>
+				</tr>
+				<tr>
+					<td><a href="images/plot-city.png"><img src="images/plot-sanDiego.png" /></a></td>
+					<td><a href="images/plot-city.png"><img src="images/plot-seattle.png" /></a></td>
+				</tr>
+				<tr>
+					<td><a href="images/plot-city.png"><img src="images/plot-washingtondc.png" /></a></td>
+				</tr>	
+			</table> 
+			<p class="notes">Source: Car2Go official API. Data collected, processed, and presented by Lucas Smith.</p>
+		</div>
+	</div>
+</body>

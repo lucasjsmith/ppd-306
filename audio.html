@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+	<script src="js/audiojs/audio.min.js"/></script>
+
+	<title>Audio | PPD 306 Portfolio</title>
+
+
+
+	<style type="text/css">
+		.audiojs  {
+			margin-bottom: 15px;
+		}
+	</style>
+
+</head>
+<body>
+	<div id="nav-bar">
+		<ul class="nav">
+			<li><h1>PPD-306<br>portfolio</h1></li>
+			<li><a href="index.html">Intro</a></li>
+			<li><a href="table.html">Table</a></li>
+			<li><a href="chart.html">Chart</a></li>
+			<li><a href="infographic.html">Infographic</a></li>
+			<li><a href="photos.html">Photos</a></li>
+			<li><a href="sketchup.html">SketchUp</a></li>
+			<li><a href="psa.html">PSA</a></li>
+			<li id="selected-nav"><a href="audio.html">Audio</a></li>
+			<li><a href="map.html">Map</a></li>
+			<p id="nav-footer">Lucas Smith, Fall 2014</p>
+		</ul>
+	</div>
+	<div id="content-wrapper">
+		<div id="content">
+			<h1>Acoustic Environment</h1>
+			<p>The ambient sounds of using a car2go. This clip describes a trip from industrial/residential El Segundo to the beach.</p>
+			<audio src="audio/acoustic.mp3" autoload="false"></audio>
+			<h1>Interview</h1>
+			<p>From a phone interview about car2go and carsharing with King County Metro's Carol Cooper, Acting Supervisor of Market Development and Ref Lindmark, Transit Planner.</p>
+			<audio src="audio/interview.mp3" autoload="false"></audio>
+
+		</div>
+	</div>
+</body>
+		<script>
+			audiojs.events.ready(function() {
+				var as = audiojs.createAll();
+			});
+		</script>
